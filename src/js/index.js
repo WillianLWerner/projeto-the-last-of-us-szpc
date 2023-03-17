@@ -9,11 +9,11 @@
     Passo 6 - Fazer aparecer a nova imagem correpondente ao botão selecionado.
 */
 
-// Passo 1 - Pegar os elementos do botão no html
+// Passo 1
 const botoesCarrossel = document.querySelectorAll('.botao')
 const imagens = document.querySelectorAll('.imagem')
 
-// Passo 2 - Identificar o clique do usuário
+// Passo 2
 botoesCarrossel.forEach((botao, indice) => {
     botao.addEventListener('click', () => {
 
