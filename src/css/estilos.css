@@ -95,18 +95,8 @@ main:after{
     height: 100vh;
     object-fit: cover;
     display: none;
-    animation: mudarImagem 0.7s;
 }
 
 .carrossel .imagem.ativa{
     display: block;
-}
-
-@keyframes mudarImagem{
-    from{
-        opacity: 0,85;
-    }
-    to{
-        opacity: 1;
-    }
 }
