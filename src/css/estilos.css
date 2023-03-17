@@ -26,6 +26,7 @@ main:after{
     max-width: 350px;
     filter: invert(1);
     margin-bottom: 80px;
+    margin-left: 150px;
 }
 
 .informacoes .descricao{
@@ -33,6 +34,7 @@ main:after{
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
+    margin-left: 150px;
 }
 
 .botoes-carrossel{
